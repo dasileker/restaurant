@@ -1,7 +1,5 @@
 body {
-  /* background-image: url('/src/assets/main-background.jpg');
-   */
-   background-color: url(https://th.bing.com/th/id/OIP.LMmbjrHiLIDZTt1dWYq84QHaHa?pid=ImgDet&rs=1);
+  background-image: url('/src/assets/main-background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
