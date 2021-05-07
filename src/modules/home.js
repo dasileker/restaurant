@@ -1,5 +1,9 @@
+import Image from '../assets/main-background.jpg';
+
 const Home = (() => {
   const homePage = () => {
+    const body = document.querySelector('body');
+    body.assets = Image;
     const content = document.getElementById('content');
 
     const main = document.createElement('main');
@@ -9,7 +13,7 @@ const Home = (() => {
     div.classList.add('home-div');
 
     const subHead = document.createElement('h2');
-    subHead.innerText = 'Welcome to Yam-yam!! We serve : ';
+    subHead.innerText = 'Welcome to Yam-ya!! We serve : ';
 
     const serveList = document.createElement('h3');
     serveList.innerHTML = '<span>Breakfast</span> <br> <span>Lunch</span> <br> <span>Dinner</span> ';
