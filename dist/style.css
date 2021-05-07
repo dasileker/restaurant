@@ -1,5 +1,7 @@
 body {
-  background-image: url('/src/assets/main-background.jpg');
+  /* background-image: url('/src/assets/main-background.jpg');
+   */
+   background-color: #0000FF;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
