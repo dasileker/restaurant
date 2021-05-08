@@ -1,5 +1,6 @@
+
 body {
-  background-image: url('/src/assets/main-background.jpg');
+  background: url(./main-background1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
